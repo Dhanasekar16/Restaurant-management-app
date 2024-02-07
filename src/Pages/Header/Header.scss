@@ -1,0 +1,25 @@
+a{
+    text-decoration: none !important;
+}
+.navbar{
+    .banner_title{
+        font-size: 2.5rem;
+        font-weight: 800;
+        color: #FEA116 !important;
+    }
+    .nav_link{
+        color: #fff !important;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0% 8px;
+        text-transform: uppercase;
+        transition: .5s;
+        &:hover{
+            color: #FEA116 !important;
+            transition: .5s;
+        }
+    }
+    .active{
+        color: #FEA116 !important;
+    }
+}

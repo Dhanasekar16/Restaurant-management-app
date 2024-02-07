@@ -1,0 +1,26 @@
+.banner_title{
+    color: #fff;
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.banner_desc{
+    color: #fff;
+    margin: 0%;
+    font-size: 16px;
+}
+.common_btn{
+    color: #fff;
+    background-color: #FEA116 !important;
+    border-color: #FEA116;
+    &:hover{
+        background-color: #efa331 !important;
+        color: #fff;
+    }
+}
+input, textarea{
+    &:focus{
+        outline: none !important;
+        box-shadow: none !important;
+    }
+}
